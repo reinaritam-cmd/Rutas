@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { Home } from './pages/home/home';
-import { Parcial } from './pages/parcial/parcial';
+import { Home } from './components/commons/home/home';
+import { Parcial } from './components/commons/parcial/parcial';
 
 export const routes: Routes = [
   { path: 'home', component: Home }, // Agrega esta línea

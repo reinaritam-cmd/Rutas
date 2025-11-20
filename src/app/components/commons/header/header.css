@@ -1,0 +1,13 @@
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-family: serif;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}

@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c0c0c0;
+    color: #b67474;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+/* Media query para pantallas más grandes (tablets y ordenadores) */
+@media (min-width: 600px) {
+  body {
+    font-size: 1.125rem; /* Equivalente a 18px */
+  }
+
+  .container {
+    width: 70%;
+  }
+}
+
+/* Media query para pantallas aún más grandes (ordenadores de escritorio grandes) */
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
